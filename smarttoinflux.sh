@@ -23,33 +23,3 @@ do
 #    curl -i -XPOST "http://$influxserver:8086/write?db=$influxdb&u=$influxuser&p=$influxpass" --data-binary "health,hdd=$diskserial status=\"${health[0]}\",temp=${temp[0]}" > /dev/null 2>&1
 #    echo $diskserial ${health[0]} ${temp[0]}
 done
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 1Hilfe                 2Speichern             3Markieren              4Ersetzen               5Kopieren               6Verschieben           7Suchen                 8Löschen                9Menüs                 10Beenden
